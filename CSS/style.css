@@ -6,14 +6,12 @@
 }
 .wrapper {
 	width: 400px;
-	height: 450px;
 	margin: 0 auto;
 }
 
 .longred {
 	height: 100px;
 	background: #ff0000;
-
 }
 
 .left {
@@ -29,26 +27,22 @@
 }
 
 .top-boxes {
-	display: flex;
-	gap: 0;
-}
-
-.column-box{
-	display: flex;
-flex-direction: column;
+	overflow: hidden;
 }
 
 .purple {
-	margin: 0;
 	height: 50px;
 	width: 150px;
 	background: #cc00db;
 }
 
 .orange {
+	float: left;
 	width: 100px;
 	height: 150px;
 	background: #ff9e6b;
+	margin-left: 150px;
+  margin-top: -150px;
 }
 
 .blue {
@@ -60,6 +54,7 @@ flex-direction: column;
 .brown {
 	height: 100px;
 	background: #8e2727;
+	clear: both;
 }
 
 .yellow {
