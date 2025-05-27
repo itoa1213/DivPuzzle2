@@ -23,11 +23,10 @@
 
 .right {
 	float: left;
-	width: 250px;
 }
 
-.top-boxes {
-	overflow: hidden;
+.left-stack {
+	float: left;
 }
 
 .purple {
@@ -41,8 +40,6 @@
 	width: 100px;
 	height: 150px;
 	background: #ff9e6b;
-	margin-left: 150px;
-  margin-top: -150px;
 }
 
 .blue {
@@ -54,7 +51,6 @@
 .brown {
 	height: 100px;
 	background: #8e2727;
-	clear: both;
 }
 
 .yellow {
